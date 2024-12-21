@@ -1,0 +1,124 @@
+@media (max-width:767px) {
+    /* Header */
+    .customer_section-header .mimosa-title {
+        padding: 0 43px;
+    }
+    .mimosa-title .customer_section,
+    .mimosa-title .customer_section-name {
+        font-size: 28px;
+    }
+    .customer_section-header .mimosa-imgHeader {
+        right: 10px;
+    }
+    .customer_section-header .mimosa-imgHeader img {
+        max-width: 150px;
+    }
+    /* Main */
+    .customer_section-main .mimosa-banner {
+        margin-top: 30px;
+    }
+    .customer_section-main .mimosa-banner .mimosa-bannerYear {
+        max-width: calc(100% - 26px);
+        transform: translate(26px, -50%);
+    }
+    .mimosa-bannerYear-item {
+        margin: 0 13px;
+        padding: 8px 15px;
+    }
+    .mimosa-bannerYear-item .yearItemNam {
+        font-size: 13px;
+    }
+    .mimosa-bannerYear-item .allOfRate,
+    .mimosa-bannerYear-item .yearItemNumber {
+        font-size: 16px;
+    }
+    /* Caption */
+    .mimosa-bannerRate .bannerRate-caption {
+        bottom: 25px;
+    }
+    .bannerRate-caption .bannerRate-title {
+        margin-bottom: 6px;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .bannerRate-caption .bannerRate-quote {
+        font-size: 14px;
+    }
+    .mimosa-bannerRate .bannerRate-item img {
+        height: 380px !important;
+    }
+    /* Control btn prev next */
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 21px;
+        height: 43px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1240px) {
+    /* Header */
+    /* .customer_section-header .mimosa-title {
+        padding: 0 43px;
+    } */
+    .mimosa-title .customer_section,
+    .mimosa-title .customer_section-name {
+        font-size: 32px;
+    }
+    .customer_section-header .mimosa-imgHeader {
+        right: 30px;
+    }
+    .customer_section-header .mimosa-imgHeader img {
+        max-width: 225px;
+    }
+    /* Main */
+    .customer_section-main .mimosa-banner {
+        margin-top: 30px;
+    }
+    .mimosa-bannerYear-item {
+        margin: 0 20px;
+        padding: 10px 18px;
+    }
+    .mimosa-bannerYear-item .yearItemNam {
+        font-size: 16px;
+    }
+    .mimosa-bannerYear-item .allOfRate,
+    .mimosa-bannerYear-item .yearItemNumber {
+        font-size: 18px;
+    }
+    /* Caption */
+    .mimosa-bannerRate .bannerRate-caption {
+        bottom: 50px;
+    }
+    .bannerRate-caption .bannerRate-title {
+        margin-bottom: 12px;
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .bannerRate-caption .bannerRate-quote {
+        font-size: 18px;
+    }
+    .mimosa-bannerRate .bannerRate-item img {
+        height: 600px !important;
+    }
+    /* Control btn prev next */
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 30px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 1241px) and (max-width: 1439px) {
+    .customer_section-header .mimosa-imgHeader img {
+        max-width: 250px;
+    }
+    .customer_section-main .mimosa-banner {
+        margin-top: 60px;
+    }
+    .mimosa-bannerRate .bannerRate-caption {
+        bottom: 80px;
+    }
+    .mimosa-bannerRate .bannerRate-item img {
+        height: 650px !important;
+    }
+}
